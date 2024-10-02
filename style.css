@@ -3,10 +3,11 @@
     background: url(clock.png) no-repeat;
     height: 35vw;
     width: 35vw;
-    top: 7vw;
+    top: 4vw;
     background-size: 100%;
     border: 2px solid rgb(232, 232, 232);
     margin:auto;
+
 }
 
 body
@@ -50,5 +51,5 @@ body
 
 #text{
     color: wheat;
-    size: 400rem;
+    font-size: 1.1rem;
 }
