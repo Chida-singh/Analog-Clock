@@ -16,6 +16,7 @@ body
     position: absolute;
     background: rgb(224, 78, 78);
     border-radius: 13px;
+    transform-origin: bottom;
     
 }
 
