@@ -3,8 +3,9 @@
     background: url(clock.png) no-repeat;
     height: 35vw;
     width: 35vw;
+    top: 7vw;
     background-size: 100%;
-    border: 2px solid snow;
+    border: 2px solid rgb(232, 232, 232);
     margin:auto;
 }
 
@@ -14,7 +15,7 @@ body
 }
 #hour,#minute,#second{
     position: absolute;
-    background: rgb(224, 78, 78);
+    background: rgb(23, 110, 136);
     border-radius: 13px;
     transform-origin: bottom;
     
@@ -45,4 +46,9 @@ body
     top: 9%;
     left: 49.25%;
     opacity: 0.8;
+}
+
+#text{
+    color: wheat;
+    size: 400rem;
 }
